@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 const Counter = ({ initialCount }) => {
-  const [count, setCount] = useState(initialCount); // ✅ state
+  const [count, setCount] = useState(initialCount); 
 
-  // ✅ functions using arrow syntax
+
   const increase = () => setCount(prev => prev + 1);
   const decrease = () => setCount(prev => prev - 1);
   const reset = () => setCount(initialCount);
